@@ -12,9 +12,9 @@ namespace HelloWorld
             Console.WriteLine("Введите 3-х значное число: ");
             int a = Convert.ToInt32(Console.ReadLine());
             string b = a.ToString();
-            int countSymbol = 4;
+            int countSymbol = 3;
             
-            if (b.Length < countSymbol)
+            if (b.Length == countSymbol)
             {
                 Console.WriteLine("Result: " + b[1]);
             }
